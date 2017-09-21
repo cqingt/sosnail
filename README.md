@@ -10,3 +10,22 @@
  \/___/  \/___/  \/___/  \/_/\/_/\/__/\/_/ \/_/\/____/
 
 ```
+
+## Installation
+
+```
+$ npm install sosnail
+```
+
+
+## Usage
+
+```js
+import sosnail from 'sosnail';
+
+const number = sosnail.number();
+```
+
+## Documentation
+
+ - [API documentation](docs/methods/index.md)

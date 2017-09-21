@@ -2,7 +2,7 @@
  * @Author: gaomingjun
  * @Date:   2017-09-20 14:20:14
  * @Last modified by:   gaomingjun
- * @Last modified time: 2017-09-20 15:27:43
+ * @Last modified time: 2017-09-21 15:04:20
  */
 
 
@@ -13,7 +13,7 @@ import letter from 'letter.js';
 const mixture = (opts) => {
   opts = Object.assign({
     'separator': { //分隔符
-      'symbol': undefined,
+      'symbol': '-',
       'index': []
     },
     'length': 1,

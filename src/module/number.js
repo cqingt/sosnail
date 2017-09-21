@@ -2,7 +2,7 @@
  * @Author: gaomingjun
  * @Date:   2017-09-20 09:56:32
  * @Last modified by:   gaomingjun
- * @Last modified time: 2017-09-20 10:01:29
+ * @Last modified time: 2017-09-21 14:28:51
  */
 
 
@@ -11,7 +11,7 @@ const number = (opts) => {
 		'min': 0,
 		'max': 9,
 		'exclude': [],
-		'decimal': null // 15 => max
+		'decimal': 0 // 15 => max
 	}, opts);
 	const min = +opts.min;
 	const max = +opts.max;

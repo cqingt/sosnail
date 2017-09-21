@@ -1,6 +1,6 @@
 {
   "name": "sosnail",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "sosnail",
     "random",
@@ -28,10 +28,8 @@
       "eqeqeq": 1
     }
   },
-  "dependencies": {
-    "cross-env": "^5.0.5"
-  },
   "devDependencies": {
+    "cross-env": "^5.0.5",
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.1.2",

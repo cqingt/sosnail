@@ -2,13 +2,13 @@
  * @Author: gaomingjun
  * @Date:   2017-09-20 09:56:32
  * @Last modified by:   gaomingjun
- * @Last modified time: 2017-09-20 14:32:50
+ * @Last modified time: 2017-09-21 14:53:08
  */
 
 
 const letter = (opts) => {
   opts = Object.assign({
-    'format': 'lowercase', // lowercase、uppercase
+    'format': 'lowercase', // lowercase,uppercase
     'length': 1,
     'exclude': []
   }, opts);
