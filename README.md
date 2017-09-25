@@ -10,6 +10,10 @@
  \/___/  \/___/  \/___/  \/_/\/_/\/__/\/_/ \/_/\/____/
 ```
 
+## identicon
+
+![identicon](/docs/images/identicon.png)
+
 ## Installation
 
 ```
@@ -26,10 +30,10 @@ const letter = sosnail.letter();
 const mixture = sosnail.mixture();
 ```
 
-## identicon
-
-![identicon](/docs/images/identicon.png)
-
 ## Documentation
 
 - [API documentation](docs/methods/index.md)
+
+## history
+
+- [history log](docs/history/history.md)
