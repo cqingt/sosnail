@@ -1,12 +1,14 @@
 {
   "name": "sosnail",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "sosnail",
     "random",
     "utils",
-    "generator"
+    "generator",
+    "identicon"
   ],
+  "author": "sosnail",
   "scripts": {
     "start": "cross-env NODE_ENV=development nodemon --watch webpack.config.js --exec webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack"
@@ -40,5 +42,8 @@
     "nodemon": "^1.12.0",
     "webpack": "^3.5.6",
     "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
   }
 }

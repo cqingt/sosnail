@@ -2,7 +2,7 @@
  * @Author: gaomingjun
  * @Date:   2017-09-08 10:12:35
  * @Last modified by:   gaomingjun
- * @Last modified time: 2017-09-20 11:40:02
+ * @Last modified time: 2017-09-23 15:57:57
  */
 
 
@@ -62,7 +62,7 @@ let plugins = [
     'template': path.resolve(DEV_PATH, 'index.html'),
     'hash': !DEBUG,
     'cache': !DEBUG,
-    'inject': 'head',
+    'inject': true,
     'minify': {
       'removeComments': true,
       'collapseWhitespace': true
@@ -108,7 +108,6 @@ module.exports = {
     'modules': [
       DEV_PATH,
       PRO_PATH,
-      path.resolve(DEV_PATH, 'module'),
       path.resolve(process.cwd(), 'example'),
       path.resolve(process.cwd(), 'node_modules')
     ]
