@@ -8,4 +8,4 @@
 
 # Modules
 
-- [color](modules/colorPicker.md)
+- [colorPicker](modules/colorPicker.md)

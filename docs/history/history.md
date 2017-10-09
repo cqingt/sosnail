@@ -14,3 +14,7 @@
 ## 2017-09-25
 - v0.0.3
 - add identicon methed and colorPicker module
+
+## 2017-10-09
+- v0.0.4
+- add color methed

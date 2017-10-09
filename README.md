@@ -28,6 +28,14 @@ import sosnail from 'sosnail';
 const number = sosnail.number();
 const letter = sosnail.letter();
 const mixture = sosnail.mixture();
+const identicon = sosnail.identicon({
+  'text': 'test'
+});
+const color = sosnail.color();
+
+const colorPicker = new sosnail.ColorPicker();
+const hex2rgb = colorPicker.hex2rgb('#0000ff');
+const rgb2hex = colorPicker.hex2rgb(0,0,255);
 ```
 
 ## Documentation

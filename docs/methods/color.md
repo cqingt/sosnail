@@ -6,7 +6,7 @@ Prop       | Type          | Default | Params                                   
 ---------- | ------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------
 text       | Number/String | null    | -                                                                                                                                   | used to generate a color
 format     | String        | 'hex'   | 'hex','hsl','hsla','hsb','rgb','rgba','hsl-web','hsla-web','rgb-web','rgba-web'                                                     | the format of the generated color
-alpha      | Number/Array  | [0, 1]  | 0~1 / [0~1,0~1]                                                                                                                     | when using a format with an alpha channel
+alpha      | Number/Array  | [0, 1]  | 0-1 / [0-1,0-1]                                                                                                                     | when using a format with an alpha channel
 luminosity | String        | null    | 'light','dark'                                                                                                                      | luminosity of the generated color
 hue        | String        | null    | 'red','red-orange','orange','orange-yellow','yellow','yellow-green','green','green-blue','blue','blue-violet','violet','violet-red' | hue of the generated color
 
