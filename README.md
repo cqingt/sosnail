@@ -32,7 +32,7 @@ const mixture = sosnail.mixture();
 
 ## Documentation
 
-- [API documentation](docs/methods/index.md)
+- [API documentation](docs/index.md)
 
 ## history
 

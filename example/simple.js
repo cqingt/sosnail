@@ -2,7 +2,7 @@
  * @Author: gaomingjun
  * @Date:   2017-09-19 11:07:37
  * @Last modified by:   gaomingjun
- * @Last modified time: 2017-09-25 10:49:02
+ * @Last modified time: 2017-10-09 10:49:28
  */
 
 
@@ -101,6 +101,31 @@ const sosnail = require('sosnail.js');
 
 
 //identicon
-const identicon = sosnail.identicon({
-  'text': 'test'
-});
+// const identicon = sosnail.identicon({
+// 	'text': 'test'
+// });
+
+
+//colorPicker
+const colorPicker = new sosnail.ColorPicker();
+console.log(colorPicker);
+// const hsb2rgb = colorPicker.hsb2rgb(297, 100, 100);
+// const rgb2hsb = colorPicker.rgb2hsb(155, 155, 155);
+// const hsl2rgb = colorPicker.hsl2rgb(297, 100, 50);
+// const rgb2hsl = colorPicker.rgb2hsl(242, 0, 255);
+// const rgb2hex = colorPicker.rgb2hex(242, 0, 255);
+// const hex2rgb = colorPicker.hex2rgb('#f200ff');
+// const hsl2hsb = colorPicker.hsl2hsb(297, 100, 50);
+// const hsl2hex = colorPicker.hsl2hex(297, 100, 50);
+// const hsb2hex = colorPicker.hsb2hex(297, 100, 100);
+// const hex2hsb = colorPicker.hex2hsb('#f200ff');
+
+//color
+const color = sosnail.color();
+//test
+const div = document.createElement('div');
+div.style.width = '200px';
+div.style.height = '100px';
+div.style.backgroundColor = color;
+document.body.appendChild(div);
+//test--END--

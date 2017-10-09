@@ -2,12 +2,12 @@
  * @Author: gaomingjun
  * @Date:   2017-09-22 10:35:07
  * @Last modified by:   gaomingjun
- * @Last modified time: 2017-09-25 10:50:44
+ * @Last modified time: 2017-10-09 10:53:58
  */
 
 
 import sha1 from 'crypto-js/sha1';
-import ColorPicker from 'module/colorPicker.js';
+import ColorPicker from 'modules/colorPicker.js';
 
 
 const identicon = (opts) => {
@@ -18,12 +18,12 @@ const identicon = (opts) => {
     'padding': 0.1,
     'foreground': undefined,
     'background': opts.type === 'jpeg' ? '#fff' : 'rgba(255, 255, 255, 0)',
-    'saturation': 0.7,
-    'lightness': 0.6
+    'saturation': 252,
+    'lightness': 216
   }, opts);
   const hash = sha1(opts.text).toString();
   const colorPicker = new ColorPicker();
-  const color = colorPicker.hsl2rgb(parseInt(hash.substr(-7), 16) / 0xfffffff, opts.saturation, opts.lightness).rgb;
+  const color = colorPicker.hsl2rgb(Math.ceil(parseInt(hash.substr(-7), 16) / 0xfffffff * 360), opts.saturation, opts.lightness);
   const size = opts.size; //画布尺寸
   const grid = 5; //画布栅格数
   const padding = typeof opts.padding === 'number' ? size * opts.padding : +opts.padding; //间距
