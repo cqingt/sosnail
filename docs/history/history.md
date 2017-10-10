@@ -18,3 +18,7 @@
 ## 2017-10-09
 - v0.0.4
 - add color methed
+
+## 2017-10-10
+- v0.0.5
+- add random methed and test module
