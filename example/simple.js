@@ -2,7 +2,7 @@
  * @Author: gaomingjun
  * @Date:   2017-09-19 11:07:37
  * @Last modified by:   gaomingjun
- * @Last modified time: 2017-10-09 11:24:38
+ * @Last modified time: 2017-10-10 11:05:11
  */
 
 
@@ -107,7 +107,7 @@ const sosnail = require('sosnail.js');
 
 
 //colorPicker
-const colorPicker = new sosnail.ColorPicker();
+//const colorPicker = new sosnail.ColorPicker();
 // const hsb2rgb = colorPicker.hsb2rgb(297, 100, 100);
 // const rgb2hsb = colorPicker.rgb2hsb(155, 155, 155);
 // const hsl2rgb = colorPicker.hsl2rgb(297, 100, 50);
@@ -120,7 +120,7 @@ const colorPicker = new sosnail.ColorPicker();
 // const hex2hsb = colorPicker.hex2hsb('#f200ff');
 
 //color
-const color = sosnail.color();
+//const color = sosnail.color();
 //test
 // const div = document.createElement('div');
 // div.style.width = '200px';
@@ -128,3 +128,10 @@ const color = sosnail.color();
 // div.style.backgroundColor = color;
 // document.body.appendChild(div);
 //test--END--
+
+
+//random
+// const random = sosnail.random({
+//   'data': [1, 1, 1, 1, 1, 1, 2]
+// });
+// console.log(random);
